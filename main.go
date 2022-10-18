@@ -5,5 +5,5 @@ func main() {
 		Role        string   `json:"role"`
 		Authorities []string `json:"authorities"`
 	}
-	
+
 }
