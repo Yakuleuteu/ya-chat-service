@@ -23,5 +23,6 @@ jobs:
       - name: Test
         run: go test -v ./...
 
-      - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v3.2.0
+      - name: Run golangci-lint with reviewdog
+        uses: reviewdog/action-golangci-lint@v2.2.2
+      
